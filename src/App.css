@@ -1,0 +1,11 @@
+.container-main{
+  display: flex;
+}
+
+.sidebar{
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  background: #000003;
+  border-right: 1px solid #1d1d1d;
+}
