@@ -3,9 +3,50 @@
 }
 
 .sidebar{
-  width: 200px;
+  width: 250px;
   height: 100vh;
   position: fixed;
   background: #000003;
   border-right: 1px solid #1d1d1d;
+}
+
+.sidebar .container-evidences{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.sidebar .container-evidences h2{
+  margin: 15px 0;
+  font-size: 2em;
+  border-bottom: 1px solid rgb(103, 103, 103);
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.sidebar .container-evidences .evidence{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .container-evidences .evidence .carre{
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar .container-evidences .evidence span{
+  margin-left: 20px;
+}
+
+.check{
+  font-size: 18px;
+  color: rgb(34, 34, 34);
 }
