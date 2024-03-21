@@ -91,3 +91,7 @@
 .main-container .entities .card .sanity{
   margin-bottom: 20px;
 }
+
+.main-container .entities .card.active{
+  background: rgb(2, 114, 43);
+}
