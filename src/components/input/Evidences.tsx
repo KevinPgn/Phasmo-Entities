@@ -5,11 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 export const Evidences = () => {
   const addEvidence = useEvidences((state) => state.addEvidence)
   const evidences = useEvidences((state) => state.evidences)
-  const NotThisEvidences = useEvidences((state) => state.notThisEvidences)
-  
-  console.log(evidences, NotThisEvidences);
-  
-  
+  const NotThisEvidences = useEvidences((state) => state.notThisEvidences)    
 
   return <>
   <div className="container-evidences">

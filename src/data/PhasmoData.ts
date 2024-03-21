@@ -169,3 +169,5 @@ const phasmoData = [
     speedIncrease: 2.75,
   }
 ]
+
+export default phasmoData;
